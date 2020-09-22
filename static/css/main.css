@@ -1,7 +1,7 @@
 /* --- General --- */
 
 body {
-  font-family: 'Lora', 'Times New Roman', serif;
+  font-family: "Google Sans",Roboto,Arial,sans-serif;
   font-size: 18px;
   color: #404040;
   position: relative;
@@ -34,7 +34,7 @@ p a {
   color: #008AFF;
 }
 h1,h2,h3,h4,h5,h6 {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Google Sans",Roboto,Arial,sans-serif;
   font-weight: 800;
 }
 a {
@@ -69,7 +69,7 @@ hr.small {
 }
 
 .main-explain-area {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Google Sans",Roboto,Arial,sans-serif;
   padding: 15px inherit;
 }
 
@@ -78,7 +78,7 @@ hr.small {
 }
 
 div.panel-body a.list-group-item {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Google Sans",Roboto,Arial,sans-serif;
   font-weight: 800;
   border-radius: 0;
   border: none;
@@ -139,7 +139,7 @@ img {
 .navbar-custom {
   background: #F5F5F5;
   border-bottom: 1px solid #EAEAEA;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Google Sans",Roboto,Arial,sans-serif;
 }
 
 .navbar-custom .nav li a {
@@ -314,10 +314,16 @@ footer .list-inline {
   padding: 0;
 }
 footer .copyright {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Google Sans",Roboto,Arial,sans-serif;
   text-align: center;
   margin-bottom: 0;
 }
+
+.copyright .material-icons {
+  font-size: 20px;
+  vertical-align: sub;
+}
+
 footer .theme-by {
   text-align: center;
   margin: 10px 0 0;
@@ -339,7 +345,7 @@ footer .theme-by {
 
 .post-preview {
   padding: 20px 0;
-  border-bottom: 1px solid #eee;
+  border-bottom: 2px solid #4285f4;
 }
 
 @media only screen and (min-width: 768px) {
@@ -377,7 +383,7 @@ footer .theme-by {
 .page-meta {
   color: #808080;
   font-size: 18px;
-  font-style: italic;
+  /* font-style: italic; */
   margin: 0 0 10px;
 }
 .page-meta {
@@ -389,8 +395,12 @@ footer .theme-by {
   color: #404040;
   text-decoration: none;
 }
+.post-meta .material-icons {
+  font-size: 10px;
+  vertical-align: unset;
+}
 .post-preview .post-entry {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Google Sans",Roboto,Arial,sans-serif;
 }
 .post-entry-container {
   display: inline-block;
@@ -429,7 +439,7 @@ footer .theme-by {
 /* --- Tags --- */
 
 .blog-tags {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Google Sans",Roboto,Arial,sans-serif;
   color: #999;
   font-size: 15px;
   margin-bottom: 30px;
@@ -531,10 +541,11 @@ footer .theme-by {
 }
 .intro-header .page-heading .page-subheading,
 .intro-header .post-heading .post-subheading {
-  font-size: 27px;
-  line-height: 1.1;
+  /* font-size: 27px; */
+  line-height: 21px;
   display: block;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Roboto Mono', monospace;
+  text-align: justify;
   font-weight: 300;
   margin: 10px 0 0;
 }
@@ -559,7 +570,7 @@ footer .theme-by {
   padding: 5px 10px;
   font-size: 11px;
   color: #EEE;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Google Sans",Roboto,Arial,sans-serif;
   right: 0;
   bottom: 0;
   display: none;
@@ -635,7 +646,7 @@ footer .theme-by {
 /* --- Pager --- */
 
 .pager li a {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Google Sans",Roboto,Arial,sans-serif;
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 800;
@@ -752,7 +763,7 @@ div.splitbox div.right {
 
 /* Delayed Disqus */
 .disqus-comments button {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Google Sans",Roboto,Arial,sans-serif;
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 800;
